@@ -11,11 +11,6 @@ const userSchema=mongoose.Schema({
 });
 
 userSchema.plugin(plm);
-const userModel=mongoose.model("userModel",userSchema);
 
-
-
-
-
-
-module.exports=userModel;
+const usermodel=mongoose.model("usermodel",userSchema);
+module.exports=usermodel;
